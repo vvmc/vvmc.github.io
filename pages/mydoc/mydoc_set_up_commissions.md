@@ -59,7 +59,7 @@ You can classify a commission as private to restrict access to the commission, i
     Set up the commissions dashboard to combine analytics and actions for managing your commissions from a single place.
 
 ### Result
-You can use the com: search prefix to limit your results to commissions.
+You can use the com: search prefix in the search bar to limit your results to commissions.
 
 
 ### Next Steps
