@@ -18,7 +18,7 @@ You can assign or invite academic affiliates, admissions counselors, students, w
 ### Steps
 1.  Access the **Manage Commission Membership** task.
 
-    Create new, or update existing, commission memberships. If a commission member is inactive or terminated, then you can only end their existing commission memberships.
+    Create new or update existing commission memberships. If a commission member is inactive or terminated, then you can only end their existing commission memberships.
 
     If you change an existing membership type, the previous membership type ends 1 day before the new **Effective Date**. The **Membership Service** Start Date is the date of the initial membership type and never changes. If you specify an end date for commission membership, the application automatically removes the member from the commission on that date.
 1.  (Optional) Access the **Create External Commission Member** task.
@@ -33,12 +33,9 @@ You can assign or invite academic affiliates, admissions counselors, students, w
 
     You can cancel or resend invitations that are pending responses.
 
-    Security: *Manage: Commission Invitations* domain in the Organizations and Roles functional area.
 1.  (Optional) <span style="color: blue;">Edit Business Processes</span>.
 
     Add the Manage Professional Affiliations business process as a subprocess of the **Manage Commission Membership** business process.
-
-    Security: *Set Up: Skills and Experience* domain in the Talent Core functional area.
 
 ### Result
 You can assign commission members to roles on commissions so they can participate in commission related tasks. The roles must be in security groups that have permission on the domains that control access to those tasks.

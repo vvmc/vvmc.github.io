@@ -10,7 +10,7 @@ folder: mydoc
 ---
 
 ### Resource Description
-Workers represent employees and contingent workers in your tenant. You can only view the workers and worker data that the your security profile permits.
+Workers represent employees and contingent workers in your tenant. You can only view the workers and worker data that your security profile permits.
 
 ### Endpoints
 Collection of workers:

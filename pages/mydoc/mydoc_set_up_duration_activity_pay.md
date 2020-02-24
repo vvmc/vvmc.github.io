@@ -13,7 +13,7 @@ folder: mydoc
 Create time periods using the **Maintain Time Periods** task.
 
 ### Context
-Set up duration activity pay so you can pay your employees for activities they perform during a fixed duration.
+You can set up duration activity pay so you can pay your employees for activities they perform during a fixed duration.
 
 ### Steps
 1.  Access the **Edit Tenant** task.<br/><br/>In the **Educational Institutions** section, select the **Enable Duration Activity Pay** check box.<br/><br/>See <span style="color: blue;">Reference: Edit Tenant</span>.
@@ -28,8 +28,8 @@ Set up duration activity pay so you can pay your employees for activities they p
 1.  <span style="color: blue;">Create Duration Activity Rate Matrix</span>.
 1.  Access the **Maintain Event Categories and Reasons** task.<br/><br/>Create categories and reasons for the *Duration Activity* event.<br/><br/>Security: *Set Up: Staffing* domain in the Staffing functional area.
 1. <span style="color: blue;">Edit Domain Security Policies</span>.<br/><br/>Configure these domains in the Academic Faculty functional area:
-* *Self-Service: Duration Activity Pay*
-* *Worker Data: Duration Activity Pay*
+    * *Self-Service: Duration Activity Pay*
+    * *Worker Data: Duration Activity Pay*
 1. <span style="color: blue;">Edit Business Process Security Policies</span>.<br/><br/>Configure initiating actions on these business process security policies in the Academic Faculty functional area:
 * *Duration Activity Pay*
 * *Duration Activity Eligibility*

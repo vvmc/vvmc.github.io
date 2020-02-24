@@ -11,7 +11,6 @@ This site contains topics that I wrote for the Workday Administrator Guide. I ch
 * Consistent style in present tense and active voice.
 * Easy to follow instructions for complex features.
 * Minimalism.
-* Parallel step order.
 
 I chose the **REST API Resources** documentation to exemplify:
 * Ability to read JSON.

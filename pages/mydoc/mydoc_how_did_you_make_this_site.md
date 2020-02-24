@@ -21,6 +21,6 @@ In Atom, I wrote in these markup languages:
 * [HTML](https://html.com/)
 * [Markdown](https://www.markdownguide.org/)
 
-I had a lot fun, I'm excited to create and publish additional web content in the future.
+I had a lot of fun. I'm excited to create and publish additional web content in the future.
 
 {% include links.html %}

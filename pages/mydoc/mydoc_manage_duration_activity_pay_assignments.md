@@ -94,6 +94,6 @@ You can view current and historical duration activity, compensation, and pay cha
 * **Activity Pay - Remaining Balance Costing Estimates**
 * **Audit - Inactive Employee Jobs with Open Activity Pay**
 
-Whenever you change duration activity assignments, The application recalculates the payment schedule and amount. Changes that affect the total amount cause changes to the scheduled payment amounts. Extending the payment end date results in more but smaller payments.
+Whenever you change duration activity assignments, The application recalculates the payment schedule and amount. Changes that affect the total amount can cause changes to the scheduled payment amounts. Extending the payment end date results in more but smaller payments.
 
 {% include note.html content="We recommend that you avoid using on-demand checks to pay employees for duration activities. The application doesn't include on-demand check payments on duration activity pay reports. If you use on-demand checks, then manually adjust the Total Amount to avoid double payment." %}

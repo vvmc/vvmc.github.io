@@ -9,7 +9,7 @@ folder: mydoc
 Security: *Commission Definition: Manage* domain in the Organizations and Roles functional area.
 
 ### Context
-Commissions help your organization accomplish specialized goals. We enable you to organize these people for important decision making and easily record details of their meetings. The **Maintain Commission Definition** task enables you to create new commissions and update existing commissions.
+Commissions help your organization accomplish specialized goals. You can organize these people for important decision making and easily record details of their meetings. The **Maintain Commission Definition** task helps you to create new commissions and update existing commissions.
 
 ### Steps
 1. Access the **Maintain Commission Definition** task.

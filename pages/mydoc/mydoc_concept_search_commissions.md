@@ -14,4 +14,4 @@ You can designate a commission as a search commission, enabling it to play an ac
 <li>Integrate users with search commission roles into recruiting processes for associated job requisitions.</li>
 <ul><li>You must configure your recruiting domains, business process definitions, and business process security policies to include role-based security groups associated with commission roles.</li></ul>
 <li>Select commission members, who are workers, as interviewees on the <b>Schedule Interview Team</b> task.</li>
-<li>Configure the <b>commission</b> profile report on the Details for Job Requisition Composite View profile group.</li></ul>
+<li>Configure the <b>Commission</b> profile report on the Details for Job Requisition Composite View profile group.</li></ul>

@@ -24,12 +24,10 @@ You can easily track different types of members by organizing your commission me
 
     Create and track different types of commission membership, such as officers, alumni, or graduate students.
 
-    Security: *Commission Definition: Set Up* domain in the Organizations and Roles functional area.
 1.  Access the **Maintain Event Categories and Reasons** task.
 
     Create categories and reasons for commission membership.
 
-    Security: *Set Up: Staffing* domain in the Staffing functional area.
 1.  <span style="color: blue;">Create Custom Business Processes</span>.
 
     Configure these business processes and security policies in the Organizations and Roles functional area:

@@ -24,14 +24,12 @@ You can plan and manage commission meetings to maintain commission records, and 
 1.  <span style="color: blue;">Edit Domain Security Policies</span>.
 
     Configure security for these domains in the Organizations and Roles functional area:
-    <ul><li>Configure security for these domains in the Organizations and Roles functional area:</li>
-    <ul><li><i>Commission Meeting: Set Up</i></li>
-    <li><i>Commission Meeting: Manage</i></li>
-    <li><i>Manage: Commission Meeting Minutes</i></li>
-    <li><i>Commissions: View</i></li></ul></ul>
+    * *Commission Meeting: Set Up*
+    * *Commission Meeting: Manage*
+    * *Manage: Commission Meeting Minutes*
+    * *Commissions: View*
 1. Access the **Maintain Commission Meeting Types** task.
 
-    Security: *Commission Meeting: Set Up* domain in the Organizations and Roles functional area.
 1.  (Optional) Select the **Enable Educational Institution Features** check box to relate commission meeting agenda items to academic appointment events.
 
     See <span style="color: blue;">Reference: Edit Tenant</span>.
@@ -39,12 +37,9 @@ You can plan and manage commission meetings to maintain commission records, and 
 
     Configure vote statuses to track votes for commission meeting agenda items.
 
-    Security: *Commission Meeting: Set Up* domain in the Staffing functional area.
 1.  (Optional) Access the **Create Commission Meeting Template** task.
 
     Create templates for commission meeting details and agenda items that you can use as a starting point when creating commission meetings.
-
-    Security: *Commission Meeting: Manage* domain in the Organizations and Roles functional area.
 
 ### Result
 Commission role holders can access commission reports and these tasks:
