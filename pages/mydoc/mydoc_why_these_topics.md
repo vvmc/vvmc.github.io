@@ -5,7 +5,7 @@ permalink: why_these_topics.html
 folder: mydoc
 ---
 
-This site contains topics that I wrote for the Workday Administrator Guide. I chose the topics in the **Commissions** and **Duration Activity Pay** sections because they exemplify:
+This site contains topics that I wrote for an Administrator Guide. I chose the topics in the **Commissions** and **Duration Activity Pay** sections because they exemplify:
 * Complete sections of an administrator guide.
 * Conceptual information.
 * Consistent style in present tense and active voice.

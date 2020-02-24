@@ -1,7 +1,7 @@
 ---
 title: Manage and Invite Commission Members
-tags: [getting_started]
-keywords: release notes, announcements, what's new, new features
+tags:
+keywords:
 last_updated:
 summary:
 sidebar: mydoc_sidebar

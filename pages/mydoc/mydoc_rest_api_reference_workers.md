@@ -278,7 +278,7 @@ The response returns additional information, compared with the previous body tha
    "yearsOfService": "82"
 }
 ```
-This request retrieves information about Pecky Park (id=1da8b422311b4929bfa4520f7f0b4e83), but instead of the default view, it uses the workerSummary view:
+This request retrieves information about Becky Park (id=1da8b42231), but instead of the default view, it uses the workerSummary view:
 ```json
 GET /workers/1da8b42231?view=workerSummary
 ```
@@ -298,7 +298,7 @@ The worker in this response body contains the same information returned by defau
     "isManager": false
 }
 ```
-This request retrieves information about Rodney Dangerfield's time-off balance (id=66faa65677834f0a9b586dd5645e9004), using the timeOffSummary view:
+This request retrieves information about Rodney Dangerfield's time-off balance (id=66faa65677), using the timeOffSummary view:
 ```json
 GET /workers/66faa65677?view=timeOffSummary
 ```

@@ -1,8 +1,8 @@
 ---
 title: Did you make this theme?
-keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
+keywords:
 last_updated:
-tags: [getting_started]
+tags:
 summary: "No, I based this Jekyll theme on Tom Johnson's documentation theme."
 sidebar: mydoc_sidebar
 permalink: mydoc_did_you_make_this_theme.html

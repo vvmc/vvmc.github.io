@@ -17,6 +17,7 @@ You can set up duration activity pay so you can pay your employees for activitie
 
 ### Steps
 1.  Access the **Edit Tenant** task.<br/><br/>In the **Educational Institutions** section, select the **Enable Duration Activity Pay** check box.<br/><br/>See <span style="color: blue;">Reference: Edit Tenant</span>.
+1. [technical writing blog](http://idratherbewriting.com)
 1.  Access the **Maintain Compensation Elements** task.<br/><br/>Select the **Time Duration Pay Enabled** option on compensation elements you want to enable for duration activity pay.
 1.  Set up cost centers to enable costing overrides:
 * Access the **Maintain Worktag Usage** task, select **Duration Activity Pay Costing Allocation**, and add **Cost Center** to the **Primary Worktag** Types.
