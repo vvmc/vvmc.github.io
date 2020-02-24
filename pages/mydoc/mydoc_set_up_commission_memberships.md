@@ -45,7 +45,7 @@ You can easily track different types of members by organizing your commission me
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Doamins</th>
+    <th>Domains</th>
     <th>Controls Access To</th>
     </tr>
     </thead>
@@ -77,7 +77,7 @@ You can easily track different types of members by organizing your commission me
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Doamins</th>
+    <th>Domains</th>
     <th>Controls Access To</th>
     </tr>
     </thead>
