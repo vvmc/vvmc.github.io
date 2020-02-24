@@ -1,6 +1,6 @@
 ---
 title: Welcome
-keywords: sample homepage
+keywords:
 tags:
 sidebar: mydoc_sidebar
 permalink: index.html
