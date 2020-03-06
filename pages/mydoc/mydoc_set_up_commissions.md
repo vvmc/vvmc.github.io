@@ -51,10 +51,10 @@ You can classify a commission as private to restrict access to the commission, i
 1. (Optional) <span style="color: blue;">Create Organization Membership Security Groups (Constrained)</span>.
 
     Grant current members access to commission information by creating a constrained organization membership security group for the commission.
-1. <span style="color: blue;">Steps: Set Up Profiles and Profile Groups</span>.
+1. <span style="color: blue;">Set Up Profiles and Profile Groups</span>.
 
     Set up the commission profile and add its profile report to the sponsoring organization type profile.
-1. <span style="color: blue;">Steps: Set Up Dashboards and Landing Pages</span>.
+1. <span style="color: blue;">Set Up Dashboards and Landing Pages</span>.
 
     Set up the commissions dashboard to combine analytics and actions for managing your commissions from a single place.
 

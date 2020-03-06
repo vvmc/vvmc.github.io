@@ -20,13 +20,13 @@ You can set up duration activity pay so you can pay your employees for activitie
 1.  Access the **Maintain Compensation Elements** task.<br/><br/>Select the **Time Duration Pay Enabled** option on compensation elements you want to enable for duration activity pay.
 1.  Set up cost centers to enable costing overrides:
 * Access the **Maintain Worktag Usage** task, select **Duration Activity Pay Costing Allocation**, and add **Cost Center** to the **Primary Worktag** Types.
-* Access the **Maintain Organization Types** task, select **Costing** > **Cost Center**, and select **Yes** for **Available for Payroll Costing Allocation**.<br/><br/>Security: *Set Up: Organization* domain in the Organization and Roles functional area.
-1.  Access the **Maintain Duration Activity Categories** task.<br/><br/>Define the classifications of the activities. Example: degree program, credit course, or noninstructional.<br/><br/>Security: *Set Up: Duration Activity* domain in the Academic Faculty functional area.
-1.  Access the **Create Duration Activity Unit** task.<br/><br/>Define the unit types. Examples: Hours, students, or course credits.<br/><br/>Security: *Set Up: Duration Activity* domain in the Academic Faculty functional area.
-1.  Access the **Create Duration Activity** task.<br/><br/>Define the activity to assign to employees. Examples: Contact hours, lecturing, grading, running labs, or course development.<br/><br/>For reporting purposes, you can select the Instructional **Activity** check box to identify duration activities that are instructional activities.<br/><br/>Security: Set Up: *Duration Activity* domain in the Academic Faculty functional area.
-1.  (Optional) **Access the Create Duration Activity Task** task.<br/><br/>Use duration activity tasks to provide a greater level of detail for an activity assignment. Example: Create a task named History 101 associated with the Lecturing activity. When you assign the Lecturing activity to the employee, you can include the History 101 task.<br/><br/>Security: *Set Up: Duration Activity* domain in the Academic Faculty functional area.
+* Access the **Maintain Organization Types** task, select **Costing** > **Cost Center**, and select **Yes** for **Available for Payroll Costing Allocation**.
+1.  Access the **Maintain Duration Activity Categories** task.<br/><br/>Define the classifications of the activities. Example: degree program, credit course, or noninstructional.
+1.  Access the **Create Duration Activity Unit** task.<br/><br/>Define the unit types. Examples: Hours, students, or course credits.
+1.  Access the **Create Duration Activity** task.<br/><br/>Define the activity to assign to employees. Examples: Contact hours, lecturing, grading, running labs, or course development.<br/><br/>For reporting purposes, you can select the Instructional **Activity** check box to identify duration activities that are instructional activities.
+1.  (Optional) **Access the Create Duration Activity Task** task.<br/><br/>Use duration activity tasks to provide a greater level of detail for an activity assignment. Example: Create a task named History 101 associated with the Lecturing activity. When you assign the Lecturing activity to the employee, you can include the History 101 task.
 1.  <span style="color: blue;">Create Duration Activity Rate Matrix</span>.
-1.  Access the **Maintain Event Categories and Reasons** task.<br/><br/>Create categories and reasons for the *Duration Activity* event.<br/><br/>Security: *Set Up: Staffing* domain in the Staffing functional area.
+1.  Access the **Maintain Event Categories and Reasons** task.<br/><br/>Create categories and reasons for the *Duration Activity* event.
 1. <span style="color: blue;">Edit Domain Security Policies</span>.<br/><br/>Configure these domains in the Academic Faculty functional area:
     * *Self-Service: Duration Activity Pay*
     * *Worker Data: Duration Activity Pay*
