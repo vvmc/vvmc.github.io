@@ -22,12 +22,14 @@ Wallets store your private keys and contain additional details. You can only vie
 <colgroup>
 <col width="15%" />
 <col width="15%" />
-<col width="35%" />
+<col width="15%" />
+<col width="20%" />
 <col width="70%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Parameter</th>
+<th>Required?</th>
 <th>Schema</th>
 <th>Data type</th>
 <th>Description</th>
@@ -36,12 +38,14 @@ Wallets store your private keys and contain additional details. You can only vie
 <tbody>
 <tr>
 <td><code>coin</code></td>
+<td>Yes</td>
 <td>Path</td>
 <td>String</td>
 <td>Cryptocurrency or token ticker symbol.</td>
 </tr>
 <tr>
 <td><code>walletID</code></td>
+<td>Yes</td>
 <td>Path</td>
 <td>String<br><code>^[0-9a-f]{32}$</code></td>
 <td>ID of the wallet.</td>
@@ -55,12 +59,14 @@ Wallets store your private keys and contain additional details. You can only vie
 <colgroup>
 <col width="15%" />
 <col width="15%" />
-<col width="35%" />
+<col width="15%" />
+<col width="20%" />
 <col width="70%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Parameter</th>
+<th>Required?</th>
 <th>Schema</th>
 <th>Data type</th>
 <th>Description</th>
@@ -69,6 +75,7 @@ Wallets store your private keys and contain additional details. You can only vie
 <tbody>
 <tr>
 <td><code>allTokens</code></td>
+<td>Yes</td>
 <td>Query</td>
 <td>Boolean</td>
 <td>If true, includes data for all subtokens.</td>
