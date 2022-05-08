@@ -3,9 +3,9 @@ title: Did you make this theme?
 keywords:
 last_updated:
 tags:
-summary: "No, I based this Jekyll theme on Tom Johnson's documentation theme."
+summary: "No, I used an open-source Jekyll theme."
 sidebar: mydoc_sidebar
-permalink: mydoc_did_you_make_this_theme.html
+permalink: theme.html
 folder: mydoc
 ---
 

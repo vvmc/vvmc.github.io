@@ -1,11 +1,11 @@
 ---
-title: "Reference: Workers"
+title: "Get Wallet"
 tags:
 keywords:
 last_updated:
 summary:
 sidebar: mydoc_sidebar
-permalink: mydoc_rest_api_reference_workers.html
+permalink: get-wallet.html
 folder: mydoc
 ---
 

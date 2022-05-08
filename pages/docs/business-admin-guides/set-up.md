@@ -5,7 +5,7 @@ keywords:
 last_updated:
 summary:
 sidebar: mydoc_sidebar
-permalink: mydoc_set_up_duration_activity_pay.html
+permalink: set-up.html
 folder: mydoc
 ---
 

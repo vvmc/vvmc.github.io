@@ -5,7 +5,7 @@ keywords:
 last_updated:
 summary:
 sidebar: mydoc_sidebar
-permalink: mydoc_create_time_duration_activity_rate_matrix.html
+permalink: rate-matrix.html
 folder: mydoc
 ---
 

@@ -2,94 +2,62 @@
 
 entries:
 - title: sidebar
-  product: Vivian's Doc Samples
+  product: Vivian's doc samples
   version:
   folders:
 
-  - title: Introduction
+  - title: About this site
     output: web, pdf
     folderitems:
 
-    - title: Why these topics?
-      url: /why_these_topics.html
-      output: web, pdf
-
-    - title: Is any of this copyright protected?
-      url: /mydoc_is_any_of_this_copyright_protected.html
-      output: web, pdf
-
     - title: How did you make this site?
-      url: /mydoc_how_did_you_make_this_site.html
+      url: /site.html
       output: web, pdf
 
     - title: Did you make this theme?
-      url: /mydoc_did_you_make_this_theme.html
+      url: /theme.html
       output: web, pdf
 
-    - title: Is there anything else I should know?
-      url: /mydoc_is_there_anything_else_i_should_know.html
-      output: web, pdf
-
-  - title: Duration Activity Pay
+  - title: API reference
     output: web, pdf
     folderitems:
 
-    - title: "Concept: Duration Activity Pay"
-      url: /mydoc_concept_duration_activity_pay.html
+    - title: "Get Wallet"
+      url: /get-wallet.html
       output: web, pdf
 
-    - title: Set Up Duration Activity Pay
-      url: /mydoc_set_up_duration_activity_pay.html
+    - title: "Swagger UI"
+      url: /swagger-ui.html
       output: web, pdf
 
-    - title: Create Duration Activity Rate Matrix
-      url: /mydoc_create_time_duration_activity_rate_matrix.html
-      output: web, pdf
-
-    - title: Manage Duration Activity Pay Assignments
-      url: /mydoc_manage_duration_activity_pay_assignments.html
-      output: web, pdf
-
-  - title: Commissions
+  - title: Business admin guides
     output: web, pdf
     folderitems:
 
-    - title: Set Up Commissions
-      url: /mydoc_set_up_commissions.html
+    - title: Workday
+      url: /workday.html
       output: web, pdf
 
-    - title: Maintain Commission Definition
-      url: /mydoc_maintain_commission_definition.html
+    - title: Concept
+      url: /concept.html
       output: web, pdf
 
-    - title: Set Up Commission Memberships
-      url: /mydoc_set_up_commission_memberships.html
+    - title: Set up
+      url: /set-up.html
       output: web, pdf
 
-    - title: Manage and Invite Commission Members
-      url: /mydoc_manage_and_invite_commission_members.html
+    - title: Rate matrix
+      url: /rate-matrix.html
       output: web, pdf
 
-    - title: Set Up Commission Meetings
-      url: /mydoc_set_up_commission_meetings.html
+    - title: Manage
+      url: /manage.html
       output: web, pdf
 
-    - title: "Concept: Private Commission Access for Unconstrained Role Holders"
-      url: /mydoc_concept_private_commission_access.html
-      output: web, pdf
-
-    - title: "Concept: Search Commissions"
-      url: /mydoc_concept_search_commissions.html
-      output: web, pdf
-
-    - title: "Concept: External Commission Members"
-      url: /mydoc_concept_external_commission_members.html
-      output: web, pdf
-
-  - title: REST API Resources
+  - title: Integration guides
     output: web, pdf
     folderitems:
 
-    - title: "Reference: Workers"
-      url: /mydoc_rest_api_reference_workers.html
+    - title: PayPal
+      url: /paypal.html
       output: web, pdf

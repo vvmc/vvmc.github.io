@@ -5,7 +5,7 @@ keywords:
 last_updated:
 summary:
 sidebar: mydoc_sidebar
-permalink: mydoc_manage_duration_activity_pay_assignments.html
+permalink: manage.html
 folder: mydoc
 ---
 

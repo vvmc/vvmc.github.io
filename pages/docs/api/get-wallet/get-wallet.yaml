@@ -1,0 +1,77 @@
+openapi: "3.0.0"
+info:
+  title: Get Wallet API
+  description: Get one wallet by its `coin` and `walletId`. One `walletId` can map to multiple receive addresses.
+  version: 2.0.0
+servers:
+  - url: https://app.bitgo.com/api/v2/
+    description: Production environment.
+  - url: https://app.bitgo-test.com/api/v2/
+    description: Test environment.
+paths:
+  /{coin}/wallet/{walletId}:
+    get:
+      description: Returns one wallet.
+      parameters:
+        - name: coin
+          in: path
+          required: true
+          schema:
+              type : string
+          description: Cryptocurrency or token ticker symbol.
+          example: btc
+        - name: walletId
+          in: path
+          required: true
+          schema:
+              type : string
+              pattern: '^[0-9a-f]{32}$'
+          description: ID of the wallet.
+          example: 59cd72485007a239fb00282ed480da1f
+        - name: allTokens
+          in: query
+          schema:
+              type : boolean
+          description: If true, includes data for all subtokens.
+          example: ERC-20 Tokens or Stellar Tokens.
+      responses:
+        '200':
+          description: A successful wallet response.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  approvalsRequired:
+                    type: integer
+                    minimum: 1
+                    description: Number of approvals required.
+                    example: 2
+                  coin:
+                    type: string
+                    description: Cryptocurrency or token ticker symbol.
+                    example: btc
+                  deleted:
+                    type: boolean
+                    description: If true, the wallet was deleted.
+                    example: false
+                  disableTransactionNotifications:
+                    type: boolean
+                    description: If true, transaction notifications are disabled.
+                    example: false
+                  id:
+                    type: string
+                    pattern: '^[0-9a-f]{32}$'
+                    description: The ID of the wallet.
+                    example: 59cd72485007a239fb00282ed480da1f
+                  label:
+                    type: string
+                    description: The label or name of the wallet.
+                    example: My Wallet
+                required:
+                  - approvalsRequired
+                  - coin
+                  - deleted
+                  - disableTransactionNotifications
+                  - id
+                  - label

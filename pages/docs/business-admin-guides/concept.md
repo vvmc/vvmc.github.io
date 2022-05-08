@@ -5,7 +5,7 @@ keywords:
 last_updated:
 summary:
 sidebar: mydoc_sidebar
-permalink: mydoc_concept_duration_activity_pay.html
+permalink: concept.html
 folder: mydoc
 ---
 
