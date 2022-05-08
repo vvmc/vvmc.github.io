@@ -18,42 +18,60 @@ entries:
       url: /site.html
       output: web, pdf
 
-  - title: API explorer
+  - title: API docs
     output: web, pdf
     folderitems:
 
-    - title: "Get wallet"
-      url: /swagger-ui.html
+    - title: Overview
+      url: /overview.html
       output: web, pdf
+
+      subfolders:
+      - title: Get Wallet
+        output: web, pdf
+        subfolderitems:
+
+        - title: Reference
+          url: /reference.html
+          output: web, pdf
+
+        - title: Explorer
+          url: /swagger-ui.html
+          output: web, pdf
 
   - title: Business admin guides
     output: web, pdf
     folderitems:
 
-    - title: Workday
+    - title: Overview
       url: /workday.html
       output: web, pdf
 
-    - title: Concept
-      url: /concept.html
-      output: web, pdf
+      subfolders:
+      - title: Activity Pay
+        output: web, pdf
+        subfolderitems:
 
-    - title: Set up
-      url: /set-up.html
-      output: web, pdf
+        - title: Concept
+          url: /concept.html
+          output: web, pdf
 
-    - title: Rate matrix
-      url: /rate-matrix.html
-      output: web, pdf
+        - title: Set up
+          url: /set-up.html
+          output: web, pdf
 
-    - title: Manage
-      url: /manage.html
-      output: web, pdf
+        - title: Rate matrix
+          url: /rate-matrix.html
+          output: web, pdf
+
+        - title: Manage
+          url: /manage.html
+          output: web, pdf
 
   - title: Integration guides
     output: web, pdf
     folderitems:
 
-    - title: PayPal
+    - title: Overview
       url: /paypal.html
       output: web, pdf

@@ -1,5 +1,5 @@
 ---
-title: Manage Duration Activity Pay Assignments
+title: Manage Activity Pay assignments
 tags:
 keywords:
 last_updated:
@@ -10,15 +10,15 @@ folder: mydoc
 ---
 
 ### Prerequisites
-* Set up duration activity pay.
+* Set up activity pay.
 * Assign pay group to employee and employee position.
-* Security: *Duration Activity Pay* in the Academic Faculty functional area.
+* Security: *Activity Pay* in the Academic Faculty functional area.
 
 ### Context
-You can use the **Manage Duration Activity Pay Assignments** task to assign new or adjust existing activity assignments during an academic duration.
+You can use the **Manage Activity Pay Assignments** task to assign new or adjust existing activity assignments during an academic duration.
 
 ### Steps
-1. Access the **Manage Duration Activity Pay Assignments** task.
+1. Access the **Manage Activity Pay Assignments** task.
 1. As you complete the task, consider:
     <table>
     <colgroup>
@@ -39,7 +39,7 @@ You can use the **Manage Duration Activity Pay Assignments** task to assign new 
     </tr>
     <tr>
     <td markdown="span">**Eligible Activities**</td>
-    <td>You can select activities here if you assigned eligible activities to the employee using the <b>Assign Eligible Duration Activities for Employee</b> task.</td>
+    <td>You can select activities here if you assigned eligible activities to the employee using the <b>Assign Eligible Activities for Employee</b> task.</td>
     </tr>
     </tbody>
     </table>
@@ -65,7 +65,7 @@ You can use the **Manage Duration Activity Pay Assignments** task to assign new 
     </tr>
     <tr>
     <td markdown="span">**(Optional) Costing Overrides**</td>
-    <td>These settings override worktags from the <i>Change Organization Assignments</i> and <i>Assign Costing Allocation</i> business processes and enable you to adjust the costing settings for each activity assignment.<br/><br/>For more control of payroll expense reporting, you can configure related worktags on the <b>Maintain Related Worktag Usage</b> task. Example: Configure Cost Center as a related worktag for one-time payments.<br/><br/>Overrides for each organization type must add up to 100%. To override the default assignment, you can configure 1 override at 100%.<br/><br/>You can also add, delete, or change overrides after the assigned activity begins.<br/><br/>Select a <b>Payment End Date</b> equal to the <b>Pay Group Duration End Date</b> to ensure costing overrides resolve in the current duration pay results.</td>
+    <td>These settings override worktags from the <i>Change Organization Assignments</i> and <i>Assign Costing Allocation</i> business processes and enable you to adjust the costing settings for each activity assignment.<br/><br/>For more control of payroll expense reporting, you can configure related worktags on the <b>Maintain Related Worktag Usage</b> task. Example: Configure Cost Center as a related worktag for one-time payments.<br/><br/>Overrides for each organization type must add up to 100%. To override the default assignment, you can configure 1 override at 100%.<br/><br/>You can also add, delete, or change overrides after the assigned activity begins.<br/><br/>Select a <b>Payment End Date</b> equal to the <b>Pay Group End Date</b> to ensure costing overrides resolve in the current pay results.</td>
     </tr>
     <tr>
     <td markdown="span">**(Optional) Do Not Pay**</td>
@@ -74,7 +74,7 @@ You can use the **Manage Duration Activity Pay Assignments** task to assign new 
     </tr>
     <tr>
     <td markdown="span">**Assigned Unit Rate/Total Amount**</td>
-    <td>When you first assign an activity to an employee, the application uses the duration activity rate matrix to populate these fields. If you change an employee's activity, the application doesn't evaluate the duration activity rate matrix again. However, for reference, the application displays the rate matrix used for the original assignment.<br/><br/>To change an employee's activity and automatically populate these fields:
+    <td>When you first assign an activity to an employee, the application uses the activity rate matrix to populate these fields. If you change an employee's activity, the application doesn't evaluate the activity rate matrix again. However, for reference, the application displays the rate matrix used for the original assignment.<br/><br/>To change an employee's activity and automatically populate these fields:
     <ul><li>Delete the row for their existing activity.</li>
     <li>Create a new row for the new activity.</li></ul>
     </td>
@@ -85,15 +85,15 @@ You can use the **Manage Duration Activity Pay Assignments** task to assign new 
 ### Result
 The application uses payment dates, the total amount for the activity, and the employee's pay group to calculate the amount and number of payments.
 
-Each duration activity pay assignment triggers a *Payroll Activity Payment* event for each scheduled payment. Payroll processes these assignments similarly to one-time payments. Each activity assignment row creates its own pay result.
+Each activity pay assignment triggers a *Payroll Activity Payment* event for each scheduled payment. Payroll processes these assignments similarly to one-time payments. Each activity assignment row creates its own pay result.
 
-You can view current and historical duration activity, compensation, and pay change history from the worker profile. Other reports include:
-* **Duration Activity Pay Assignments**
-* **Duration Activity Payment Details**
-* **Eligible Duration Activities for Employee**
+You can view current and historical activity, compensation, and pay change history from the worker profile. Other reports include:
+* **Activity Pay Assignments**
+* **Activity Payment Details**
+* **Eligible Activities for Employee**
 * **Activity Pay - Remaining Balance Costing Estimates**
 * **Audit - Inactive Employee Jobs with Open Activity Pay**
 
-Whenever you change duration activity assignments, The application recalculates the payment schedule and amount. Changes that affect the total amount can cause changes to the scheduled payment amounts. Extending the payment end date results in more but smaller payments.
+Whenever you change activity assignments, The application recalculates the payment schedule and amount. Changes that affect the total amount can cause changes to the scheduled payment amounts. Extending the payment end date results in more but smaller payments.
 
-{% include note.html content="We recommend that you avoid using on-demand checks to pay employees for duration activities. The application doesn't include on-demand check payments on duration activity pay reports. If you use on-demand checks, then manually adjust the Total Amount to avoid double payment." %}
+{% include note.html content="We recommend that you avoid using on-demand checks to pay employees for activities. The application doesn't include on-demand check payments on activity pay reports. If you use on-demand checks, then manually adjust the Total Amount to avoid double payment." %}

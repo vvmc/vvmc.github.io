@@ -1,5 +1,5 @@
 ---
-title: PayPal
+title: Overview
 tags:
 keywords:
 last_updated:
@@ -16,7 +16,7 @@ The following are integration guides that I wrote for PayPal:
 I chose these topics because they exemplify:
 * Conceptual information and instructive steps.
 * Developer documentation.
-* Graphic design.
+* Graphic design (for Pay Later).
 * Multiple programming languages.
 
 {% include links.html %}
