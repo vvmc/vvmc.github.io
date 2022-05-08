@@ -3,10 +3,10 @@ repository: vvmc/vvmc.github.io
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Vivian's Doc Samples
+topnav_title: Vivian's doc samples
 # this appears on the top navigation bar next to the home button
 
-site_title: Vivian's Doc Samples
+site_title: Vivian's doc samples
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name:
@@ -31,7 +31,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Vivian's Doc Samples
+feedback_subject_line: Vivian's doc samples
 
 feedback_email: vivian.a.mccarty@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
