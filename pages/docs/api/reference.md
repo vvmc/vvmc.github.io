@@ -22,8 +22,7 @@ Wallets store your private keys and contain additional details. You can only vie
 <colgroup>
 <col width="15%" />
 <col width="15%" />
-<col width="15%" />
-<col width="20%" />
+<col width="35%" />
 <col width="70%" />
 </colgroup>
 <thead>
@@ -31,7 +30,6 @@ Wallets store your private keys and contain additional details. You can only vie
 <th>Parameter</th>
 <th>Schema</th>
 <th>Data type</th>
-<th>Pattern</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -40,14 +38,12 @@ Wallets store your private keys and contain additional details. You can only vie
 <td><code>coin</code></td>
 <td>Path</td>
 <td>String</td>
-<td></td>
 <td>Cryptocurrency or token ticker symbol.</td>
 </tr>
 <tr>
 <td><code>walletID</code></td>
 <td>Path</td>
-<td>String</td>
-<td><code>^[0-9a-f]{32}$</code></td>
+<td>String<br><code>^[0-9a-f]{32}$</code></td>
 <td>ID of the wallet.</td>
 </tr>
 </tbody>
@@ -59,8 +55,7 @@ Wallets store your private keys and contain additional details. You can only vie
 <colgroup>
 <col width="15%" />
 <col width="15%" />
-<col width="15%" />
-<col width="20%" />
+<col width="35%" />
 <col width="70%" />
 </colgroup>
 <thead>
@@ -68,7 +63,6 @@ Wallets store your private keys and contain additional details. You can only vie
 <th>Parameter</th>
 <th>Schema</th>
 <th>Data type</th>
-<th>Pattern</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -77,7 +71,6 @@ Wallets store your private keys and contain additional details. You can only vie
 <td><code>allTokens</code></td>
 <td>Query</td>
 <td>Boolean</td>
-<td></td>
 <td>If true, includes data for all subtokens.</td>
 </tr>
 </tbody>
@@ -92,52 +85,52 @@ The following table lists the JSON name/value pairs returned in the response bod
 <colgroup>
 <col width="15%" />
 <col width="15%" />
-<col width="30%" />
+<col width="35%" />
 <col width="70%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
+<th>Required?</th>
 <th>Data type</th>
-<th>Pattern</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>approvalsRequired</code></td>
-<td>Integer</td>
-<td><code>>=1</code></td>
+<td>Yes</td>
+<td>Integer<br><code>>=1</code></td>
 <td>Number of approvals required.</td>
 </tr>
 <tr>
 <td><code>coin</code></td>
+<td>Yes</td>
 <td>String</td>
-<td></td>
 <td>Cryptocurrency or token ticker symbol.<br><i>Example: btc</i></td>
 </tr>
 <tr>
 <td><code>deleted</code></td>
+<td>Yes</td>
 <td>Boolean</td>
-<td></td>
 <td>If true, the wallet was deleted.</td>
 </tr>
 <tr>
 <td><code>disableTransactionNotifications</code></td>
+<td>Yes</td>
 <td>Boolean</td>
-<td></td>
 <td>If true, transaction notifications are disabled.</td>
 </tr>
 <tr>
 <td><code>id</code></td>
-<td>String</td>
-<td><code>^[0-9a-f]{32}$</code></td>
+<td>Yes</td>
+<td>String<br><code>^[0-9a-f]{32}$</code></td>
 <td>If true, transaction notifications are disabled.<br><i>Example: 59cd72485007a239fb00282ed480da1f</i></td>
 </tr>
 <tr>
 <td><code>label</code></td>
+<td>Yes</td>
 <td>String</td>
-<td></td>
 <td>The label or name of the wallet.<br><i>Example: My Wallet</i></td>
 </tr>
 </tbody>
