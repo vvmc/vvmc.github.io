@@ -9,6 +9,14 @@ permalink: paypal.html
 folder: mydoc
 ---
 
-I wrote the following integration guides for PayPal:
+The following are integration guides that I wrote for PayPal:
 * [Pay Later](https://developer.paypal.com/docs/checkout/pay-later/us/)
 * [Native Checkout](https://developer.paypal.com/limited-release/native-checkout/)
+
+I chose these topics because they exemplify:
+* Conceptual information and instructive steps.
+* Developer documentation.
+* Graphic design.
+* Multiple programming languages.
+
+{% include links.html %}

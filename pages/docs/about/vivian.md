@@ -1,9 +1,8 @@
 ---
-title: Who are you?
+title: Vivian
 keywords:
 last_updated:
 tags:
-summary: "Hi, I'm Vivian and I'm a technical writer."
 sidebar: mydoc_sidebar
 permalink: vivian.html
 folder: mydoc

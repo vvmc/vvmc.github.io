@@ -6,27 +6,23 @@ entries:
   version:
   folders:
 
-  - title: About this site
+  - title: About
     output: web, pdf
     folderitems:
 
-    - title: How did you make this site?
+    - title: Vivian
+      url: /vivian.html
+      output: web, pdf
+
+    - title: This site
       url: /site.html
       output: web, pdf
 
-    - title: Did you make this theme?
-      url: /theme.html
-      output: web, pdf
-
-  - title: API reference
+  - title: API explorer
     output: web, pdf
     folderitems:
 
-    - title: "Get Wallet"
-      url: /get-wallet.html
-      output: web, pdf
-
-    - title: "Swagger UI"
+    - title: "Get wallet"
       url: /swagger-ui.html
       output: web, pdf
 
