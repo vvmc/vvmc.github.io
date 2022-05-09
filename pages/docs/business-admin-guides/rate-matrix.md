@@ -14,7 +14,7 @@ folder: mydoc
 * Security: *Set Up: Activity* domain in the Academic Faculty functional area.
 
 ### Context
-The *Activity Pay* business process uses rate matrices to automatically populate a unit rate for a activity category and activity unit type combination.
+The *Activity Pay* business process uses rate matrices to automatically populate a unit rate for an activity category and activity unit type combination.
 
 ### Steps
 1.  Access the **Create Activity Rate Matrix** task.
